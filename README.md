@@ -372,7 +372,7 @@ Este projeto está sob a licença **MIT**. Consulte o ficheiro [LICENSE](LICENSE
 ## Agradecimentos
 
 - Instituto Politécnico de Castelo Branco
-- Docente de Programação de Sistemas
+- Docente de Padroes e Desenho de Software
 - Comunidade Java
 - Colegas de curso pelo apoio
 
