@@ -1,0 +1,492 @@
+123-001	EST	BarraMix maçã canela	117
+123-002	EST	BarraMix frutos vermelhos	139
+123-003	EST	BarraMix amendoim mel	134
+123-004	EST	BarraMix chocolate negro	150
+123-005	EST	BarraMix banana aveia	148
+123-006	EST	Snack Proteico baunilha	161
+123-007	EST	Snack Proteico chocolate	171
+123-008	EST	Snack Proteico coco	163
+123-009	EST	Snack Proteico caramelo salgado	206
+123-010	EST	Barra Energética morango iogurte	216
+123-011	EST	Barra Energética avelã	193
+123-012	EST	Barra Energética café	197
+123-013	EST	GranolaMix frutos secos	210
+123-014	EST	GranolaMix sementes	205
+123-015	EST	GranolaMix cacau	203
+123-016	EST	GranolaMix tropical	219
+123-017	EST	BarraMix limão gengibre	238
+123-018	EST	Snack Proteico pistácio	245
+124-001	Albicereal	Arroz agulha 1kg	105
+124-002	Albicereal	Arroz carolino 1kg	118
+124-003	Albicereal	Arroz integral 1kg	125
+124-004	Albicereal	Arroz basmati 1kg	129
+124-005	Albicereal	Arroz jasmin 1kg	133
+124-006	Albicereal	Massa esparguete 500g	155
+124-007	Albicereal	Massa penne 500g	147
+124-008	Albicereal	Massa fusilli 500g	160
+124-009	Albicereal	Massa cotovelos 500g	173
+124-010	Albicereal	Massa farfalle 500g	177
+124-011	Albicereal	Flocos de aveia 500g	187
+124-012	Albicereal	Flocos de aveia integrais 1kg	221
+124-013	Albicereal	Cornflakes 375g	186
+124-014	Albicereal	Muesli frutas 500g	202
+124-015	Albicereal	Muesli chocolate 500g	218
+124-016	Albicereal	Granola mel 500g	210
+124-017	Albicereal	Granola frutos secos 500g	244
+125-001	Docevida	Bolacha maria 200g	111
+125-002	Docevida	Bolacha digestiva 250g	130
+125-003	Docevida	Bolacha recheada chocolate 300g	164
+125-004	Docevida	Bolacha recheada baunilha 300g	168
+125-005	Docevida	Bolacha integral 200g	148
+125-006	Docevida	Biscoito amanteigado 250g	167
+125-007	Docevida	Biscoito limão 200g	156
+125-008	Docevida	Chocolate negro 70% 100g	178
+125-009	Docevida	Chocolate leite 100g	173
+125-010	Docevida	Chocolate branco 100g	183
+125-011	Docevida	Tablete chocolate amêndoas 150g	220
+125-012	Docevida	Tablete chocolate avelãs 150g	221
+125-013	Docevida	Pudim chocolate 4x100g	207
+125-014	Docevida	Pudim baunilha 4x100g	211
+125-015	Docevida	Sobremesa gelatina morango 4x100g	254
+125-016	Docevida	Sobremesa gelatina ananás 4x100g	258
+125-017	Docevida	Sobremesa mousse chocolate 2x100g	268
+126-001	Fonte Clara	Água mineral 1.5L	108
+126-002	Fonte Clara	Água com gás 1.5L	115
+126-003	Fonte Clara	Água mineral 0.5L	122
+126-004	Fonte Clara	Água com gás limão 0.5L	147
+126-005	Fonte Clara	Sumo laranja 1L	130
+126-006	Fonte Clara	Sumo maçã 1L	128
+126-007	Fonte Clara	Sumo multifrutos 1L	156
+126-008	Fonte Clara	Sumo ananás 1L	148
+126-009	Fonte Clara	Néctar pêssego 1L	164
+126-010	Fonte Clara	Néctar pera 1L	162
+126-011	Fonte Clara	Chá gelado limão 1.5L	190
+126-012	Fonte Clara	Chá gelado pêssego 1.5L	203
+126-013	Fonte Clara	Água vitaminada frutos vermelhos 0.5L	252
+126-014	Fonte Clara	Água vitaminada tropical 0.5L	235
+126-015	Fonte Clara	Água vitaminada limão gengibre 0.5L	260
+127-001	Mar Azul	Atum em óleo 120g	108
+127-002	Mar Azul	Atum em água 120g	115
+127-003	Mar Azul	Atum em azeite 120g	128
+127-004	Mar Azul	Sardinha em óleo 120g	141
+127-005	Mar Azul	Sardinha em tomate 120g	154
+127-006	Mar Azul	Cavala em óleo 120g	149
+127-007	Mar Azul	Cavala em escabeche 120g	171
+127-008	Mar Azul	Filetes de anchova 50g	172
+127-009	Mar Azul	Bacalhau desfiado 200g	179
+127-010	Mar Azul	Lulas em conserva 120g	186
+127-011	Mar Azul	Polvo em conserva 120g	193
+127-012	Mar Azul	Mexilhão em escabeche 120g	212
+127-013	Mar Azul	Amêijoa em salmoura 120g	213
+127-014	Mar Azul	Berbigão em salmoura 120g	223
+127-015	Mar Azul	Atum picante 120g	206
+127-016	Mar Azul	Paté de atum 65g	210
+127-017	Mar Azul	Paté de sardinha 65g	229
+127-018	Mar Azul	Paté de cavala 65g	230
+128-001	Lusifruta	Banana 1kg	87
+128-002	Lusifruta	Maçã golden 1kg	109
+128-003	Lusifruta	Maçã fuji 1kg	110
+128-004	Lusifruta	Maçã reineta 1kg	126
+128-005	Lusifruta	Laranja 1kg	118
+128-006	Lusifruta	Tangerina 1kg	131
+128-007	Lusifruta	Pera rocha 1kg	141
+128-008	Lusifruta	Uva branca 500g	151
+128-009	Lusifruta	Uva preta 500g	155
+128-010	Lusifruta	Manga unidade	159
+128-011	Lusifruta	Papaia unidade	169
+128-012	Lusifruta	Abacaxi unidade	179
+128-013	Lusifruta	Kiwi 500g	168
+128-014	Lusifruta	Melancia unidade	196
+128-015	Lusifruta	Melão unidade	194
+128-016	Lusifruta	Noz 500g	186
+128-017	Lusifruta	Amêndoa 500g	205
+128-018	Lusifruta	Avelã 500g	206
+128-019	Lusifruta	Figo seco 250g	225
+128-020	Lusifruta	Tâmara 250g	223
+201-001	Padrões	Atum em óleo 120g	156
+201-002	Padrões	Atum em azeite 120g	177
+201-003	Padrões	Atum em água 120g	178
+201-004	Padrões	Sardinha em óleo 120g	209
+201-005	Padrões	Sardinha em tomate 120g	230
+201-006	Padrões	Cavala em óleo 120g	221
+201-007	Padrões	Cavala em escabeche 120g	257
+201-008	Padrões	Filetes de anchova 50g	258
+201-009	Padrões	Mexilhão em escabeche 120g	289
+201-010	Padrões	Amêijoa em salmoura 120g	290
+201-011	Padrões	Berbigão em salmoura 120g	306
+201-012	Padrões	Lulas em conserva 120g	302
+201-013	Padrões	Polvo em conserva 120g	313
+201-014	Padrões	Paté de atum 65g	294
+201-015	Padrões	Paté de sardinha 65g	325
+201-016	Padrões	Paté de cavala 65g	326
+201-017	Padrões	Bacalhau desfiado 200g	357
+201-018	Padrões	Atum picante 120g	343
+202-001	Arquipélago	Arroz agulha 1kg	151
+202-002	Arquipélago	Arroz carolino 1kg	172
+202-003	Arquipélago	Arroz integral 1kg	183
+202-004	Arquipélago	Arroz basmati 1kg	189
+202-005	Arquipélago	Arroz jasmin 1kg	195
+202-006	Arquipélago	Massa esparguete 500g	231
+202-007	Arquipélago	Massa penne 500g	217
+202-008	Arquipélago	Massa fusilli 500g	238
+202-009	Arquipélago	Massa cotovelos 500g	259
+202-010	Arquipélago	Massa farfalle 500g	265
+202-011	Arquipélago	Massa integral 500g	276
+202-012	Arquipélago	Massa tricolor 500g	287
+202-013	Arquipélago	Massa ninho 500g	283
+202-014	Arquipélago	Couscous 500g	279
+202-015	Arquipélago	Quinoa 500g	280
+202-016	Arquipélago	Milho para pipocas 500g	351
+203-001	Gota Doce	Água mineral 1.5L	156
+203-002	Gota Doce	Água com gás 1.5L	167
+203-003	Gota Doce	Água mineral 0.5L	178
+203-004	Gota Doce	Água com gás limão 0.5L	219
+203-005	Gota Doce	Sumo laranja 1L	190
+203-006	Gota Doce	Sumo maçã 1L	186
+203-007	Gota Doce	Sumo multifrutos 1L	232
+203-008	Gota Doce	Sumo ananás 1L	218
+203-009	Gota Doce	Néctar pêssego 1L	244
+203-010	Gota Doce	Néctar pera 1L	240
+203-011	Gota Doce	Chá gelado limão 1.5L	286
+203-012	Gota Doce	Chá gelado pêssego 1.5L	307
+203-013	Gota Doce	Água vitaminada frutos vermelhos 0.5L	388
+203-014	Gota Doce	Água vitaminada tropical 0.5L	359
+203-015	Gota Doce	Água vitaminada limão gengibre 0.5L	400
+203-016	Gota Doce	Água com gás frutos vermelhos 0.5L	406
+204-001	Intermacho	Bebida energética clássica 250ml	231
+204-002	Intermacho	Bebida energética tropical 250ml	242
+204-003	Intermacho	Bebida energética zero açúcar 250ml	268
+204-004	Intermacho	Bebida energética limão 250ml	249
+204-005	Intermacho	Barra proteica chocolate 50g	255
+204-006	Intermacho	Barra proteica baunilha 50g	261
+204-007	Intermacho	Barra proteica coco 50g	252
+204-008	Intermacho	Barra proteica caramelo 50g	283
+204-009	Intermacho	Batido proteico morango 330ml	304
+204-010	Intermacho	Batido proteico chocolate 330ml	325
+204-011	Intermacho	Batido proteico baunilha 330ml	331
+204-012	Intermacho	Batido proteico banana 330ml	332
+204-013	Intermacho	Creatina monohidratada 300g	338
+204-014	Intermacho	Proteína whey baunilha 1kg	344
+204-015	Intermacho	Proteína whey chocolate 1kg	360
+204-016	Intermacho	Proteína whey morango 1kg	361
+204-017	Intermacho	Snack proteico amendoim 40g	382
+204-018	Intermacho	Snack proteico pistácio 40g	393
+204-019	Intermacho	Bebida isotónica frutos vermelhos 500ml	64
+204-020	Intermacho	Bebida isotónica laranja 500ml	430
+205-001	FrutasEST	Banana 1kg	121
+205-002	FrutasEST	Maçã golden 1kg	157
+205-003	FrutasEST	Maçã fuji 1kg	158
+205-004	FrutasEST	Maçã reineta 1kg	184
+205-005	FrutasEST	Laranja 1kg	170
+205-006	FrutasEST	Tangerina 1kg	191
+205-007	FrutasEST	Pera rocha 1kg	207
+205-008	FrutasEST	Uva branca 500g	223
+205-009	FrutasEST	Uva preta 500g	229
+205-010	FrutasEST	Manga unidade	235
+205-011	FrutasEST	Papaia unidade	251
+205-012	FrutasEST	Abacaxi unidade	267
+205-013	FrutasEST	Kiwi 500g	248
+205-014	FrutasEST	Melancia unidade	294
+205-015	FrutasEST	Melão unidade	290
+205-016	FrutasEST	Batata 3kg	286
+205-017	FrutasEST	Cenoura 1kg	302
+205-018	FrutasEST	Tomate 1kg	308
+205-019	FrutasEST	Alface unidade	339
+205-020	FrutasEST	Cebola 1kg	330
+206-001	VidaSaudavel	Sopa legumes frescos 500ml	201
+206-002	VidaSaudavel	Sopa creme abóbora 500ml	202
+206-003	VidaSaudavel	Sopa caldo verde 500ml	203
+206-004	VidaSaudavel	Sopa legumes com quinoa 500ml	249
+206-005	VidaSaudavel	Salada mista 250g	200
+206-006	VidaSaudavel	Salada de atum 250g	221
+206-007	VidaSaudavel	Salada de frango 250g	242
+206-008	VidaSaudavel	Salada mediterrânea 250g	268
+206-009	VidaSaudavel	Bolacha integral sem açúcar 200g	319
+206-010	VidaSaudavel	Bolacha aveia sem açúcar 200g	315
+206-011	VidaSaudavel	Bolacha cacau sem açúcar 200g	326
+206-012	VidaSaudavel	Chocolate negro sem açúcar 100g	347
+206-013	VidaSaudavel	Chocolate leite sem açúcar 100g	358
+206-014	VidaSaudavel	Chocolate branco sem açúcar 100g	374
+206-015	VidaSaudavel	Tablete chocolate avelãs sem açúcar 150g	425
+206-016	VidaSaudavel	Tablete chocolate amêndoas sem açúcar 150g	446
+206-017	VidaSaudavel	Pudim sem açúcar chocolate 4x100g	412
+206-018	VidaSaudavel	Pudim sem açúcar baunilha 4x100g	418
+207-001	Albilimpa	Detergente Roupa Líquido (500g)	656
+207-002	Albilimpa	Detergente Roupa Pó (500g)	302
+207-003	Albilimpa	Detergente Loiça Manual (500g)	3237
+207-004	Albilimpa	Detergente Loiça Máquina (500g)	1326
+207-005	Albilimpa	Lixívia Tradicional (500g)	1203
+207-006	Albilimpa	Lixívia Perfumada (500g)	1114
+207-007	Albilimpa	Amaciador Roupa (500g)	771
+207-008	Albilimpa	Sabão Azul e Branco (500g)	3216
+207-009	Albilimpa	Lava Tudo (500g)	619
+207-010	Albilimpa	Detergente Multiusos (500g)	2971
+207-011	Albilimpa	Detergente Roupa Líquido (250g)	3233
+207-012	Albilimpa	Detergente Roupa Pó (250g)	2433
+207-013	Albilimpa	Detergente Loiça Manual (250g)	556
+207-014	Albilimpa	Detergente Loiça Máquina (250g)	2618
+207-015	Albilimpa	Lixívia Tradicional (250g)	1928
+207-016	Albilimpa	Lixívia Perfumada (250g)	330
+207-017	Albilimpa	Amaciador Roupa (250g)	322
+207-018	Albilimpa	Sabão Azul e Branco (250g)	583
+207-019	Albilimpa	Lava Tudo (250g)	1095
+207-020	Albilimpa	Detergente Multiusos (250g)	1152
+208-001	Limpa Tudo	Detergente Roupa Líquido (500g)	2665
+208-002	Limpa Tudo	Detergente Roupa Pó (500g)	308
+208-003	Limpa Tudo	Detergente Loiça Manual (500g)	2498
+208-004	Limpa Tudo	Detergente Loiça Máquina (500g)	1014
+208-005	Limpa Tudo	Lixívia Tradicional (500g)	3132
+208-006	Limpa Tudo	Lixívia Perfumada (500g)	2861
+208-007	Limpa Tudo	Amaciador Roupa (500g)	3072
+208-008	Limpa Tudo	Sabão Azul e Branco (500g)	2432
+208-009	Limpa Tudo	Lava Tudo (500g)	1918
+208-010	Limpa Tudo	Detergente Multiusos (500g)	1102
+208-011	Limpa Tudo	Detergente Roupa Líquido (250g)	2039
+208-012	Limpa Tudo	Detergente Roupa Pó (250g)	2613
+208-013	Limpa Tudo	Detergente Loiça Manual (250g)	1339
+208-014	Limpa Tudo	Detergente Loiça Máquina (250g)	226
+208-015	Limpa Tudo	Lixívia Tradicional (250g)	3308
+208-016	Limpa Tudo	Lixívia Perfumada (250g)	3500
+208-017	Limpa Tudo	Amaciador Roupa (250g)	853
+208-018	Limpa Tudo	Sabão Azul e Branco (250g)	3059
+208-019	Limpa Tudo	Lava Tudo (250g)	1931
+209-001	Só Secos	Amendoim Torrado (500g)	719
+209-002	Só Secos	Amêndoa com Casca (500g)	468
+209-003	Só Secos	Amêndoa sem Casca (500g)	590
+209-004	Só Secos	Noz Miolo (500g)	1713
+209-005	Só Secos	Avelã (500g)	839
+209-006	Só Secos	Castanha de Caju (500g)	359
+209-007	Só Secos	Pistácio (500g)	339
+209-008	Só Secos	Mix de Frutos Secos (500g)	928
+209-009	Só Secos	Uva Passa (500g)	348
+209-010	Só Secos	Amendoim Japonês (500g)	885
+209-011	Só Secos	Amendoim Torrado (250g)	1885
+209-012	Só Secos	Amêndoa com Casca (250g)	854
+209-013	Só Secos	Amêndoa sem Casca (250g)	1386
+209-014	Só Secos	Noz Miolo (250g)	691
+209-015	Só Secos	Avelã (250g)	1802
+209-016	Só Secos	Castanha de Caju (250g)	238
+209-017	Só Secos	Pistácio (250g)	1644
+210-001	Secura	Amendoim Torrado (500g)	1248
+210-002	Secura	Amêndoa com Casca (500g)	405
+210-003	Secura	Amêndoa sem Casca (500g)	925
+210-004	Secura	Noz Miolo (500g)	311
+210-005	Secura	Avelã (500g)	1280
+210-006	Secura	Castanha de Caju (500g)	750
+210-007	Secura	Pistácio (500g)	1848
+210-008	Secura	Mix de Frutos Secos (500g)	1437
+210-009	Secura	Uva Passa (500g)	1416
+210-010	Secura	Amendoim Japonês (500g)	1963
+210-011	Secura	Amendoim Torrado (250g)	1914
+210-012	Secura	Amêndoa com Casca (250g)	890
+210-013	Secura	Amêndoa sem Casca (250g)	1332
+210-014	Secura	Noz Miolo (250g)	543
+210-015	Secura	Avelã (250g)	1592
+210-016	Secura	Castanha de Caju (250g)	292
+210-017	Secura	Pistácio (250g)	243
+210-018	Secura	Mix de Frutos Secos (250g)	1504
+211-001	Revelha	Papel Higiénico 12 rolos (500g)	692
+211-002	Revelha	Papel Higiénico 24 rolos (500g)	263
+211-003	Revelha	Lenços de Papel Pack (500g)	576
+211-004	Revelha	Lenços de Papel Caixa (500g)	306
+211-005	Revelha	Guardanapos Pack (500g)	878
+211-006	Revelha	Guardanapos Premium (500g)	669
+211-007	Revelha	Rolo de Cozinha 2 un. (500g)	1028
+211-008	Revelha	Rolo de Cozinha 4 un. (500g)	847
+211-009	Revelha	Lenços de Bolso Pack (500g)	433
+211-010	Revelha	Guardanapos Económicos (500g)	858
+211-011	Revelha	Papel Higiénico 12 rolos (250g)	827
+211-012	Revelha	Papel Higiénico 24 rolos (250g)	529
+211-013	Revelha	Lenços de Papel Pack (250g)	646
+211-014	Revelha	Lenços de Papel Caixa (250g)	246
+211-015	Revelha	Guardanapos Pack (250g)	450
+211-016	Revelha	Guardanapos Premium (250g)	1193
+212-001	Papeloria	Papel Higiénico 12 rolos (500g)	601
+212-002	Papeloria	Papel Higiénico 24 rolos (500g)	434
+212-003	Papeloria	Lenços de Papel Pack (500g)	1046
+212-004	Papeloria	Lenços de Papel Caixa (500g)	877
+212-005	Papeloria	Guardanapos Pack (500g)	652
+212-006	Papeloria	Guardanapos Premium (500g)	549
+212-007	Papeloria	Rolo de Cozinha 2 un. (500g)	764
+212-008	Papeloria	Rolo de Cozinha 4 un. (500g)	214
+212-009	Papeloria	Lenços de Bolso Pack (500g)	569
+212-010	Papeloria	Guardanapos Económicos (500g)	165
+212-011	Papeloria	Papel Higiénico 12 rolos (250g)	746
+212-012	Papeloria	Papel Higiénico 24 rolos (250g)	921
+212-013	Papeloria	Lenços de Papel Pack (250g)	648
+212-014	Papeloria	Lenços de Papel Caixa (250g)	235
+212-015	Papeloria	Guardanapos Pack (250g)	532
+212-016	Papeloria	Guardanapos Premium (250g)	744
+212-017	Papeloria	Rolo de Cozinha 2 un. (250g)	535
+212-018	Papeloria	Rolo de Cozinha 4 un. (250g)	1122
+212-019	Papeloria	Lenços de Bolso Pack (250g)	910
+212-020	Papeloria	Guardanapos Económicos (250g)	1039
+213-001	Lavagem Cerebral	Shampoo Cabelo Seco (500g)	1234
+213-002	Lavagem Cerebral	Shampoo Cabelo Oleoso (500g)	721
+213-003	Lavagem Cerebral	Shampoo Anticaspa (500g)	1160
+213-004	Lavagem Cerebral	Amaciador Nutritivo (500g)	2449
+213-005	Lavagem Cerebral	Amaciador Reparador (500g)	2357
+213-006	Lavagem Cerebral	Sabonete em Barra (500g)	1226
+213-007	Lavagem Cerebral	Sabonete Líquido (500g)	1904
+213-008	Lavagem Cerebral	Gel de Banho (500g)	1785
+213-009	Lavagem Cerebral	Gel de Banho Infantil (500g)	1632
+213-010	Lavagem Cerebral	Sabonete Glicerina (500g)	1048
+213-011	Lavagem Cerebral	Shampoo Cabelo Seco (250g)	716
+213-012	Lavagem Cerebral	Shampoo Cabelo Oleoso (250g)	2237
+213-013	Lavagem Cerebral	Shampoo Anticaspa (250g)	2171
+213-014	Lavagem Cerebral	Amaciador Nutritivo (250g)	522
+213-015	Lavagem Cerebral	Amaciador Reparador (250g)	342
+213-016	Lavagem Cerebral	Sabonete em Barra (250g)	599
+214-001	Cabeça Limpa	Shampoo Cabelo Seco (500g)	805
+214-002	Cabeça Limpa	Shampoo Cabelo Oleoso (500g)	1879
+214-003	Cabeça Limpa	Shampoo Anticaspa (500g)	410
+214-004	Cabeça Limpa	Amaciador Nutritivo (500g)	1726
+214-005	Cabeça Limpa	Amaciador Reparador (500g)	1713
+214-006	Cabeça Limpa	Sabonete em Barra (500g)	2067
+214-007	Cabeça Limpa	Sabonete Líquido (500g)	2317
+214-008	Cabeça Limpa	Gel de Banho (500g)	1179
+214-009	Cabeça Limpa	Gel de Banho Infantil (500g)	2416
+214-010	Cabeça Limpa	Sabonete Glicerina (500g)	197
+214-011	Cabeça Limpa	Shampoo Cabelo Seco (250g)	619
+214-012	Cabeça Limpa	Shampoo Cabelo Oleoso (250g)	2349
+214-013	Cabeça Limpa	Shampoo Anticaspa (250g)	1242
+214-014	Cabeça Limpa	Amaciador Nutritivo (250g)	1543
+214-015	Cabeça Limpa	Amaciador Reparador (250g)	606
+214-016	Cabeça Limpa	Sabonete em Barra (250g)	1352
+215-001	Parachulé	Desodorizante Roll-on (500g)	473
+215-002	Parachulé	Desodorizante Spray (500g)	1079
+215-003	Parachulé	Desodorizante Stick (500g)	156
+215-004	Parachulé	Desodorizante Sem Álcool (500g)	689
+215-005	Parachulé	Desodorizante Antitranspirante (500g)	1175
+215-006	Parachulé	Desodorizante Fresh (500g)	515
+215-007	Parachulé	Desodorizante Men (500g)	1189
+215-008	Parachulé	Desodorizante Women (500g)	367
+215-009	Parachulé	Desodorizante Aloe Vera (500g)	1430
+215-010	Parachulé	Desodorizante Cítrico (500g)	761
+215-011	Parachulé	Desodorizante Roll-on (250g)	1458
+215-012	Parachulé	Desodorizante Spray (250g)	1189
+215-013	Parachulé	Desodorizante Stick (250g)	1397
+215-014	Parachulé	Desodorizante Sem Álcool (250g)	557
+215-015	Parachulé	Desodorizante Antitranspirante (250g)	463
+215-016	Parachulé	Desodorizante Fresh (250g)	915
+215-017	Parachulé	Desodorizante Men (250g)	480
+215-018	Parachulé	Desodorizante Women (250g)	1254
+216-001	Nivela	Desodorizante Roll-on (500g)	151
+216-002	Nivela	Desodorizante Spray (500g)	1376
+216-003	Nivela	Desodorizante Stick (500g)	813
+216-004	Nivela	Desodorizante Sem Álcool (500g)	1150
+216-005	Nivela	Desodorizante Antitranspirante (500g)	189
+216-006	Nivela	Desodorizante Fresh (500g)	379
+216-007	Nivela	Desodorizante Men (500g)	893
+216-008	Nivela	Desodorizante Women (500g)	779
+216-009	Nivela	Desodorizante Aloe Vera (500g)	640
+216-010	Nivela	Desodorizante Cítrico (500g)	268
+216-011	Nivela	Desodorizante Roll-on (250g)	643
+216-012	Nivela	Desodorizante Spray (250g)	1311
+216-013	Nivela	Desodorizante Stick (250g)	311
+216-014	Nivela	Desodorizante Sem Álcool (250g)	325
+216-015	Nivela	Desodorizante Antitranspirante (250g)	1145
+216-016	Nivela	Desodorizante Fresh (250g)	291
+216-017	Nivela	Desodorizante Men (250g)	1240
+216-018	Nivela	Desodorizante Women (250g)	407
+216-019	Nivela	Desodorizante Aloe Vera (250g)	412
+217-001	Tiranone	Iogurte Natural 4x125g (500g)	546
+217-002	Tiranone	Iogurte Morango 4x125g (500g)	622
+217-003	Tiranone	Iogurte Pêssego 4x125g (500g)	229
+217-004	Tiranone	Iogurte Líquido Natural 6x170g (500g)	331
+217-005	Tiranone	Iogurte Líquido Morango 6x170g (500g)	600
+217-006	Tiranone	Iogurte Grego Natural 2x150g (500g)	681
+217-007	Tiranone	Iogurte Grego Frutos Vermelhos 2x150g (500g)	493
+217-008	Tiranone	Iogurte de Soja Natural 4x100g (500g)	276
+217-009	Tiranone	Iogurte de Soja Baunilha 4x100g (500g)	612
+217-010	Tiranone	Iogurte Infantil Morango 4x100g (500g)	766
+217-011	Tiranone	Iogurte Natural 4x125g (250g)	265
+217-012	Tiranone	Iogurte Morango 4x125g (250g)	790
+217-013	Tiranone	Iogurte Pêssego 4x125g (250g)	379
+217-014	Tiranone	Iogurte Líquido Natural 6x170g (250g)	468
+217-015	Tiranone	Iogurte Líquido Morango 6x170g (250g)	747
+217-016	Tiranone	Iogurte Grego Natural 2x150g (250g)	725
+217-017	Tiranone	Iogurte Grego Frutos Vermelhos 2x150g (250g)	442
+217-018	Tiranone	Iogurte de Soja Natural 4x100g (250g)	508
+217-019	Tiranone	Iogurte de Soja Baunilha 4x100g (250g)	589
+217-020	Tiranone	Iogurte Infantil Morango 4x100g (250g)	522
+218-001	Paradia	Iogurte Natural 4x125g (500g)	313
+218-002	Paradia	Iogurte Morango 4x125g (500g)	290
+218-003	Paradia	Iogurte Pêssego 4x125g (500g)	125
+218-004	Paradia	Iogurte Líquido Natural 6x170g (500g)	406
+218-005	Paradia	Iogurte Líquido Morango 6x170g (500g)	81
+218-006	Paradia	Iogurte Grego Natural 2x150g (500g)	662
+218-007	Paradia	Iogurte Grego Frutos Vermelhos 2x150g (500g)	627
+218-008	Paradia	Iogurte de Soja Natural 4x100g (500g)	295
+218-009	Paradia	Iogurte de Soja Baunilha 4x100g (500g)	662
+218-010	Paradia	Iogurte Infantil Morango 4x100g (500g)	285
+218-011	Paradia	Iogurte Natural 4x125g (250g)	67
+218-012	Paradia	Iogurte Morango 4x125g (250g)	132
+218-013	Paradia	Iogurte Pêssego 4x125g (250g)	784
+218-014	Paradia	Iogurte Líquido Natural 6x170g (250g)	706
+218-015	Paradia	Iogurte Líquido Morango 6x170g (250g)	120
+219-001	Grosso	Leite Meio Gordo 1L (500g)	94
+219-002	Grosso	Leite Gordo 1L (500g)	76
+219-003	Grosso	Leite Magro 1L (500g)	229
+219-004	Grosso	Leite Meio Gordo 6x1L (500g)	96
+219-005	Grosso	Leite Gordo 6x1L (500g)	323
+219-006	Grosso	Leite Magro 6x1L (500g)	181
+219-007	Grosso	Leite Sem Lactose 1L (500g)	202
+219-008	Grosso	Leite Cálcio 1L (500g)	308
+219-009	Grosso	Leite UHT 1L (500g)	169
+219-010	Grosso	Leite com Chocolate 200ml (500g)	336
+219-011	Grosso	Leite Meio Gordo 1L (250g)	127
+219-012	Grosso	Leite Gordo 1L (250g)	352
+219-013	Grosso	Leite Magro 1L (250g)	355
+219-014	Grosso	Leite Meio Gordo 6x1L (250g)	302
+219-015	Grosso	Leite Gordo 6x1L (250g)	184
+219-016	Grosso	Leite Magro 6x1L (250g)	302
+220-001	Teimosa	Leite Meio Gordo 1L (500g)	157
+220-002	Teimosa	Leite Gordo 1L (500g)	108
+220-003	Teimosa	Leite Magro 1L (500g)	109
+220-004	Teimosa	Leite Meio Gordo 6x1L (500g)	397
+220-005	Teimosa	Leite Gordo 6x1L (500g)	280
+220-006	Teimosa	Leite Magro 6x1L (500g)	241
+220-007	Teimosa	Leite Sem Lactose 1L (500g)	276
+220-008	Teimosa	Leite Cálcio 1L (500g)	270
+220-009	Teimosa	Leite UHT 1L (500g)	299
+220-010	Teimosa	Leite com Chocolate 200ml (500g)	87
+220-011	Teimosa	Leite Meio Gordo 1L (250g)	394
+220-012	Teimosa	Leite Gordo 1L (250g)	390
+220-013	Teimosa	Leite Magro 1L (250g)	110
+220-014	Teimosa	Leite Meio Gordo 6x1L (250g)	91
+220-015	Teimosa	Leite Gordo 6x1L (250g)	266
+220-016	Teimosa	Leite Magro 6x1L (250g)	233
+220-017	Teimosa	Leite Sem Lactose 1L (250g)	115
+220-018	Teimosa	Leite Cálcio 1L (250g)	187
+221-001	Noitadas	Ovos Classe M 6 un. (500g)	274
+221-002	Noitadas	Ovos Classe L 6 un. (500g)	629
+221-003	Noitadas	Ovos Classe M 12 un. (500g)	539
+221-004	Noitadas	Ovos Classe L 12 un. (500g)	223
+221-005	Noitadas	Ovos Biológicos 6 un. (500g)	512
+221-006	Noitadas	Ovos de Codorniz 12 un. (500g)	267
+221-007	Noitadas	Ovos Omega 3 6 un. (500g)	365
+221-008	Noitadas	Ovos Caipiras 6 un. (500g)	553
+221-009	Noitadas	Ovos Caipiras 12 un. (500g)	335
+221-010	Noitadas	Ovos Grandes 6 un. (500g)	157
+221-011	Noitadas	Ovos Classe M 6 un. (250g)	533
+221-012	Noitadas	Ovos Classe L 6 un. (250g)	643
+221-013	Noitadas	Ovos Classe M 12 un. (250g)	180
+221-014	Noitadas	Ovos Classe L 12 un. (250g)	131
+221-015	Noitadas	Ovos Biológicos 6 un. (250g)	747
+221-016	Noitadas	Ovos de Codorniz 12 un. (250g)	633
+222-001	Uma Ova	Ovos Classe M 6 un. (500g)	175
+222-002	Uma Ova	Ovos Classe L 6 un. (500g)	322
+222-003	Uma Ova	Ovos Classe M 12 un. (500g)	250
+222-004	Uma Ova	Ovos Classe L 12 un. (500g)	496
+222-005	Uma Ova	Ovos Biológicos 6 un. (500g)	577
+222-006	Uma Ova	Ovos de Codorniz 12 un. (500g)	572
+222-007	Uma Ova	Ovos Omega 3 6 un. (500g)	298
+222-008	Uma Ova	Ovos Caipiras 6 un. (500g)	490
+222-009	Uma Ova	Ovos Caipiras 12 un. (500g)	140
+222-010	Uma Ova	Ovos Grandes 6 un. (500g)	248
+222-011	Uma Ova	Ovos Classe M 6 un. (250g)	468
+222-012	Uma Ova	Ovos Classe L 6 un. (250g)	82
+222-013	Uma Ova	Ovos Classe M 12 un. (250g)	479
+222-014	Uma Ova	Ovos Classe L 12 un. (250g)	351
+222-015	Uma Ova	Ovos Biológicos 6 un. (250g)	545
