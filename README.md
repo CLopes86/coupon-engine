@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg?logo=visual-studio-code)
 
-> Sistema inteligente de gestão de cupões de desconto e cartões de fidelização desenvolvido como projeto académico da disciplina de **Programação de Sistemas (PDS)** no **Instituto Politécnico de Castelo Branco** - Curso de **Informática e Multimédia**.
+> Sistema inteligente de gestão de cupões de desconto e cartões de fidelização desenvolvido como projeto académico da disciplina de **Padrões e Desenho de Software(PDS)** no **Instituto Politécnico de Castelo Branco** - Curso de **Informática e Multimédia**.
 
 ---
 
