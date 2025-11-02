@@ -3,30 +3,45 @@ package comercio;
 import cliente.CupaoProdutos;
 
 /**
- * Representa um produto vendido numa compra. Atenção, esta classe não contém a
- * informação sobre o produto propriamente dito (para isso usa um ProdutoInfo),
- * mas sim sobre as condições de venda desse produto, nomeadamente o preço usado
- * na altura. Também indica qual o cupão que foi usado, se algum.
+ * Representa um produto vendido numa compra.
  */
 public class ProdutoVendido {
-
+    
+    private ProdutoInfo info;
+    private long preco;
+    private CupaoProdutos cupao;
+    
+    public ProdutoVendido(ProdutoInfo info, long preco) {
+        this.info = info;
+        this.preco = preco;
+        this.cupao = null;
+    }
+    
+    /**
+     * Retorna o preço.
+     */
     public float getPreco() {
-        // TODO completar este método
-        return 0;
+        return preco;
     }
 
+    /**
+     * Define o cupão.
+     */
     public void setCupao(CupaoProdutos cupaoProdutos) {
-        // TODO completar este método
+        this.cupao = cupaoProdutos;
     }
 
+    /**
+     * Retorna o cupão.
+     */
     public CupaoProdutos getCupao() {
-        // TODO completar este método
-        return null;
+        return cupao;
     }
 
-    public Object getInfo() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getInfo'");
+    /**
+     * Retorna a informação do produto.
+     */
+    public ProdutoInfo getInfo() {
+        return info;
     }
-
 }
