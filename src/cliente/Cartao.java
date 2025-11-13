@@ -9,6 +9,7 @@ import java.util.Objects;
 import comercio.ProdutoVendido;
 import comercio.Venda;
 import util.Validator;
+import cliente.Cupao;
 
 /**
  * Classe que representa um cartão de fidelização na cadeia de lojas HonESta.
@@ -16,8 +17,8 @@ import util.Validator;
 public class Cartao {
     private String numero;
     private long saldo;
-    private List<CupaoProdutos> cupoes = new ArrayList<>();
-    private List<CupaoProdutos> cupoesAtivos = new ArrayList<>();
+    private List<Cupao> cupoes = new ArrayList<>();
+    private List<Cupao> cupoesAtivos = new ArrayList<>();
     private boolean ativo = false;
 
     public Cartao(String numero, long saldo) {
@@ -37,15 +38,15 @@ public class Cartao {
         return saldo;
     }
 
-    public void addCupao(CupaoProdutos c) {
+    public void addCupao(Cupao c) {
         cupoes.add(Objects.requireNonNull(c));
     }
 
-    public void removeCupao(CupaoProdutos c) {
+    public void removeCupao(Cupao c) {
         cupoes.remove(c);
     }
 
-    public List<CupaoProdutos> getCupoes() {
+    public List<Cupao> getCupoes() {
         return Collections.unmodifiableList(cupoes);
     }
 
@@ -59,7 +60,7 @@ public class Cartao {
      * 
      * @param ativos lista de cupões para ativar
      */
-    public void ativar(List<CupaoProdutos> ativos) {
+    public void ativar(List<Cupao> ativos) {
         ativo = true;
         if (!cupoes.containsAll(ativos))
             throw new IllegalArgumentException("Há cupões que não pertencem ao cartão");
@@ -76,26 +77,49 @@ public class Cartao {
      * @param v a venda onde usar o cartão
      * @throws IllegalStateException se o cartão não estiver ativo
      */
-    public void usar(Venda v) {
-        if (!estaAtivo())
-            throw new IllegalStateException();
+   public void usar(Venda v) {
+    if (!estaAtivo())
+        throw new IllegalStateException();
 
-        // ordenar os cupões pela ordem do desconto (assim não temos de verificar
-        // se o produto já tem um desconto maior ou não)
-        Collections.sort(cupoesAtivos, (c1, c2) -> c1.getDesconto() > c2.getDesconto() ? 1 : -1);
+    // Ordenar cupões por desconto (MAIOR primeiro)
+    Collections.sort(cupoesAtivos, (c1, c2) -> 
+        Float.compare(c2.getDesconto(), c1.getDesconto()));
 
-        // ver quais os produtos que estão abrangidos por algum cupão
-        for (ProdutoVendido pv : v.getItems()) {
-            for (CupaoProdutos c : cupoesAtivos) {
-                // se o cupão se aplicar, deve ser removido da lista de cupões
-                // não adianta confirmar se já foi eliminado pois o remove já faz isso
-                if (c.aplicar(this, pv))
-                    cupoes.remove(c);
+    // Ver quais produtos estão abrangidos por algum cupão
+    for (ProdutoVendido pv : v.getItems()) {
+        
+        // Se produto já tem cupão, pular
+        if (pv.getCupao() != null) {
+            continue;
+        }
+        
+        // Tentar aplicar cupões (do maior para o menor)
+        for (Cupao c : cupoesAtivos) {
+            //  ↑
+            // MUDANÇA: Cupao em vez de CupaoProdutos
+            
+            // Verificar se cupão está válido E abrange o produto
+            if (c.estaValido() && c.abrange(pv)) {
+                
+                // Calcular e acumular desconto
+                long descontoValor = (long) (pv.getPreco() * c.getDesconto());
+                acumularSaldo(descontoValor);
+                
+                // Marcar produto com cupão
+                pv.setCupao(c);
+                
+                // Remover cupão (foi usado)
+                cupoes.remove(c);
+                
+                // Parar (só um cupão por produto)
+                break;
             }
         }
-        atualizarCupoes();
-        ativo = false;
     }
+    
+    atualizarCupoes();
+    ativo = false;
+}
 
     /**
      * Retorna uma lista com os cupões disponíveis. Os cupões disponíveis são
@@ -103,9 +127,9 @@ public class Cartao {
      * 
      * @return uma lista com os cupões disponíveis
      */
-    public List<CupaoProdutos> getCupoesDisponiveis() {
-        ArrayList<CupaoProdutos> disponiveis = new ArrayList<>();
-        for (CupaoProdutos c : cupoes)
+    public List<Cupao> getCupoesDisponiveis() {
+        ArrayList<Cupao> disponiveis = new ArrayList<>();
+        for (Cupao c : cupoes)
             if (c.estaValido())
                 disponiveis.add(c);
         return disponiveis;
@@ -117,9 +141,9 @@ public class Cartao {
      * 
      * @return uma lista com os cupões que estarão disponíveis no futuro
      */
-    public List<CupaoProdutos> getCupoesFuturos() {
-        ArrayList<CupaoProdutos> res = new ArrayList<>();
-        for (CupaoProdutos c : cupoes)
+    public List<Cupao> getCupoesFuturos() {
+        ArrayList<Cupao> res = new ArrayList<>();
+        for (Cupao c : cupoes)
             if (c.getInicio().isAfter(LocalDate.now()))
                 res.add(c);
         return res;
@@ -130,7 +154,7 @@ public class Cartao {
      */
     public void atualizarCupoes() {
         for (int i = cupoes.size() - 1; i >= 0; i--) {
-            CupaoProdutos c = cupoes.get(i);
+            Cupao c = cupoes.get(i);
             if (c.getFim().isBefore(LocalDate.now()))
                 cupoes.remove(i);
         }

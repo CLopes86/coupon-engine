@@ -10,80 +10,71 @@ import comercio.ProdutoInfo;
 import comercio.ProdutoVendido;
 import util.Validator;
 
+
 /**
- * Classe que representa um cupão emitido pela cadeia de lojas HonESta. Este
- * cupão pode ser associado a um ou mais cartões de fidelização. Cada cupão dá
- * direito a um desconto (em cartão) na compra dos produtos que abrange.
+ * Classe que representa um cupão de produtos emitido pela cadeia de lojas HonESta.
+ 
+ * HERANÇA:
+ * - extends Cupao → É UM cupão
+ * - Herda: numero, resumo, desconto, inicio, fim, estaValido()
+ * - Adiciona: lista de produtos abrangidos
+ * - Implementa: método abstrato abrange()
  */
-public class CupaoProdutos {
-    private String numero;
-    private String resumo;
-    private float desconto;
-    private LocalDate inicio, fim;
+
+public class CupaoProdutos extends Cupao {
+
+    // ========================================================================
+    // CAMPOS ESPECÍFICOS
+    // ========================================================================
+    
+    /**
+     * Lista de produtos abrangidos por este cupão.
+     * 
+     * ÚNICO CAMPO DESTA CLASSE!
+     * Os outros (numero, resumo, desconto, inicio, fim) estão no PAI.
+     */
     private List<ProdutoInfo> abrangidos = new ArrayList<>();
 
-    public CupaoProdutos(String numero, String resumo, List<ProdutoInfo> abrangidos, float desconto, LocalDate ini,
-            LocalDate fim) {
-        this.numero = Validator.requireNonBlank(numero);
-        this.resumo = Validator.requireNonBlank(resumo);
-        if (desconto < 0 || desconto > 1)
-            throw new IllegalArgumentException();
-        this.desconto = desconto;
-        if (ini.isAfter(fim))
-            throw new IllegalArgumentException();
-        this.inicio = ini;
-        this.fim = fim;
+     // ========================================================================
+    // CONSTRUTORES
+    // ========================================================================
+    
+    /**
+     * Construtor com lista de produtos inicial.
+     * 
+     * @param numero número do cupão
+     * @param resumo descrição do cupão
+     * @param abrangidos lista de produtos abrangidos
+     * @param desconto percentagem de desconto (0.0 a 1.0)
+     * @param ini data de início da validade
+     * @param fim data de fim da validade
+     */
+    public CupaoProdutos(String numero, String resumo, List<ProdutoInfo> abrangidos, float desconto, LocalDate inicio, LocalDate fim) {
+        super(numero, resumo, desconto, inicio, fim);
         this.abrangidos.addAll(abrangidos);
     }
 
-    public CupaoProdutos(String numero, String resumo, float desconto, LocalDate ini, LocalDate fim) {
-        this(numero, resumo, new ArrayList<ProdutoInfo>(), desconto, ini, fim);
-    }
-
-    /**
-     * Indica se o cupão está válido no dia de hoje, isto é, se o dia de hoje está
-     * dentro do prazo de utilização.
+     /**
+     * Construtor sem produtos (lista vazia).
+     * Chama o outro construtor passando lista vazia.
      * 
-     * @return true se está dentro do prazo de utilização
+     * @param numero número do cupão
+     * @param resumo descrição
+     * @param desconto percentagem (0.0 a 1.0)
+     * @param ini data início
+     * @param fim data fim
      */
-    public boolean estaValido() {
-        return estaValido(LocalDate.now());
+    public CupaoProdutos(String numero, String resumo, float desconto, LocalDate inicio, LocalDate fim){
+        this(numero, resumo, new ArrayList<ProdutoInfo>(), desconto, inicio, fim);
     }
 
-    /**
-     * Indica se o cupão está válido num dado dia, isto é, se esse dia está dentro
-     * do prazo de utilização.
-     * 
-     * @param data dia em que se pretende verificar se o cupão está válido
-     * @return true se a data está dentro do prazo de utilização
-     */
-    private boolean estaValido(LocalDate data) {
-        return data.compareTo(inicio) >= 0 && data.compareTo(fim) <= 0;
-    }
-
-    /**
-     * Método auxiliar para aplicar o cupão a um produto.
-     * 
-     * @param c o cartão onde acumular o saldo
-     * @param p o produto a ser usado
-     */
-    public boolean aplicar(Cartao c, ProdutoVendido p) {
-        if (!abrange(p))
-            return false;
-        c.acumularSaldo((long) (p.getPreco() * desconto));
-        p.setCupao(this);
-        return true;
-    }
-
-    public boolean abrange(ProdutoVendido p) {
-        return (p.getCupao() == null || p.getCupao().getDesconto() < getDesconto()) && abrangidos.contains(p.getInfo());
-    }
-
-    public void addProduto(ProdutoInfo p) {
+      // ========================================================================
+    // MÉTODOS PARA GERIR PRODUTOS
+    // ========================================================================
+    public void addProduto(ProdutoInfo p){
         abrangidos.add(Objects.requireNonNull(p));
     }
-
-    public void removeProduto(ProdutoInfo p) {
+    public void removeProduto(ProdutoInfo p){
         abrangidos.remove(p);
     }
 
@@ -91,23 +82,51 @@ public class CupaoProdutos {
         return Collections.unmodifiableList(abrangidos);
     }
 
-    public String getNumero() {
-        return numero;
+
+     // ========================================================================
+    // IMPLEMENTAÇÃO DO MÉTODO ABSTRATO
+    // ========================================================================
+    
+    /**
+     * Verifica se este cupão abrange um dado produto.
+     * 
+     * 
+     * 1. Verifica se produto já tem cupão com desconto maior
+     * 2. Verifica se produto está na lista de abrangidos
+     * 
+     * @Override:
+     * Este método IMPLEMENTA o método abstrato do pai (Cupao).
+     * O pai declarou: public abstract boolean abrange(ProdutoVendido p);
+     * Aqui fornecemos a implementação ESPECÍFICA para produtos.
+     * 
+     * @param p o produto a verificar
+     * @return true se cupão abrange o produto
+     */
+    @Override
+    public boolean abrange(ProdutoVendido p) {
+        return (p.getCupao() == null || p.getCupao().getDesconto() < getDesconto())
+        && abrangidos.contains(p.getInfo());
     }
 
-    public String getResumo() {
-        return resumo;
-    }
-
-    public float getDesconto() {
-        return desconto;
-    }
-
-    public LocalDate getInicio() {
-        return inicio;
-    }
-
-    public LocalDate getFim() {
-        return fim;
-    }
+     // ========================================================================
+    // MÉTODO AUXILIAR
+    // ========================================================================
+    
+    /**
+     * Método auxiliar para aplicar o cupão a um produto.
+     * 
+     * @param c o cartão onde acumular o saldo
+     * @param p o produto a ser usado
+     * @return true se aplicou com sucesso
+     */
+    public boolean aplicar(Cartao c, ProdutoVendido p) {
+    if (!abrange(p))
+        return false;
+    c.acumularSaldo((long) (p.getPreco() * this.getDesconto()));
+    //                                      ↑
+    //                          ESTE cupão (this)
+    p.setCupao(this);
+    return true;
+}
+    
 }

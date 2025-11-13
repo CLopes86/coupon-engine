@@ -1,6 +1,8 @@
 package comercio;
 
+import cliente.Cupao;
 import cliente.CupaoProdutos;
+
 
 /**
  * Representa um produto vendido numa compra específica.
@@ -45,7 +47,7 @@ public class ProdutoVendido {
      * null = não tem cupão aplicado
      * Vamos implementar cupões mais tarde!
      */
-    private CupaoProdutos cupao;
+    private Cupao cupao;
     
     
     // ========================================================================
@@ -104,7 +106,7 @@ public class ProdutoVendido {
      * 
      * @return o cupão (ou null se não tem cupão)
      */
-    public CupaoProdutos getCupao() {
+    public Cupao getCupao() {
         return cupao;
     }
     
@@ -119,10 +121,10 @@ public class ProdutoVendido {
      * Chamado durante o processamento da venda quando
      * o sistema verifica se há cupões aplicáveis.
      * 
-     * @param cupao o cupão a aplicar (pode ser null para remover)
+     * @param c o cupão a aplicar (pode ser null para remover)
      */
-    public void setCupao(CupaoProdutos cupao) {
-        this.cupao = cupao;
+    public void setCupao(Cupao c ) {
+        this.cupao = c;
     }
     
     

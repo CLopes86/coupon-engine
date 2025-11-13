@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Objects;
 
 import cliente.Cartao;
-import cliente.CupaoProdutos;
+import cliente.Cupao;
 
 /**
  * Classe que representa o inventário da empresa HonESTa.
@@ -35,7 +35,7 @@ public class Inventario {
     
     private Map<String, ProdutoInfo> produtos = new HashMap<>();
     private Map<String, Cartao> cartoes = new HashMap<>();
-    private Map<String, CupaoProdutos> cupoes = new HashMap<>();
+    private Map<String, Cupao> cupoes = new HashMap<>();
     
     
     // ========================================================================
@@ -140,7 +140,7 @@ public class Inventario {
      * @param c o cupão a adicionar
      * @throws NullPointerException se cupão for null
      */
-    public void addCupao(CupaoProdutos c) {
+    public void addCupao(Cupao c) {
         Objects.requireNonNull(c, "Cupão não pode ser null");
         cupoes.put(c.getNumero(), c);
     }
@@ -150,7 +150,7 @@ public class Inventario {
      * 
      * @param c o cupão a remover
      */
-    public void removeCupao(CupaoProdutos c) {
+    public void removeCupao(Cupao c) {
         if (c != null) {
             cupoes.remove(c.getNumero());
         }
@@ -162,7 +162,7 @@ public class Inventario {
      * @param numero o número do cupão a procurar
      * @return o cupão com o número pedido, ou null caso não exista
      */
-    public CupaoProdutos getCupao(String numero) {
+    public Cupao getCupao(String numero) {
         return cupoes.get(numero);
     }
     
@@ -171,7 +171,7 @@ public class Inventario {
      * 
      * @return coleção não modificável de todos os cupões
      */
-    public Collection<CupaoProdutos> getCupoes() {
+    public Collection<Cupao> getCupoes() {
         return Collections.unmodifiableCollection(cupoes.values());
     }
     
