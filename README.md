@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://github.com/CLopes86.png" width="120" style="border-radius: 50%;" alt="Cesaltino Lopes"/>
   
   # 🎫 Coupon Engine
   
@@ -521,6 +520,7 @@ public static void main(String[] args) {
 ### Conceitos Dominados Neste Projeto
 
 </div>
+
 ```
 ✅ Encapsulamento      ✅ Herança             ✅ Polimorfismo
 ✅ Abstração           ✅ Composição          ✅ Design Patterns
@@ -616,7 +616,3 @@ Contribuições são bem-vindas! Para contribuir:
 **© 2025 Cesaltino Lopes | Instituto Politécnico de Castelo Branco**
 
 </div>
-```
-
----
-
